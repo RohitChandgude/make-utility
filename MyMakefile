@@ -1,0 +1,16 @@
+all:
+	gcc a.c b.c
+	echo "in all"
+
+run:	
+	all
+	echo "rohit chandgude"
+	echo "welcome"
+	out
+	run
+clear:
+	rm *.o *~
+
+out:
+	./a.out
+	clear
